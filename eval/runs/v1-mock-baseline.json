@@ -1,0 +1,200 @@
+{
+  "label": "v1-mock-baseline",
+  "provider": "mock",
+  "model": "gemini-1.5-flash",
+  "prompt_version": "v1",
+  "date": "2026-11-21T10:30:13.879840+00:00",
+  "pass_rate": 0.875,
+  "summary_by_kind": {
+    "normal": {
+      "runs": 8,
+      "passed": 8
+    },
+    "edge": {
+      "runs": 4,
+      "passed": 2
+    },
+    "negative": {
+      "runs": 2,
+      "passed": 2
+    },
+    "adversarial": {
+      "runs": 2,
+      "passed": 2
+    }
+  },
+  "results": [
+    {
+      "id": "n01",
+      "kind": "normal",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 8,
+      "tokens": 289
+    },
+    {
+      "id": "n01",
+      "kind": "normal",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 4,
+      "tokens": 289
+    },
+    {
+      "id": "n02",
+      "kind": "normal",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 4,
+      "tokens": 194
+    },
+    {
+      "id": "n02",
+      "kind": "normal",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 4,
+      "tokens": 194
+    },
+    {
+      "id": "n03",
+      "kind": "normal",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 3,
+      "tokens": 142
+    },
+    {
+      "id": "n03",
+      "kind": "normal",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 5,
+      "tokens": 142
+    },
+    {
+      "id": "n04",
+      "kind": "normal",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 4,
+      "tokens": 291
+    },
+    {
+      "id": "n04",
+      "kind": "normal",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 5,
+      "tokens": 291
+    },
+    {
+      "id": "e01",
+      "kind": "edge",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 3,
+      "tokens": 223
+    },
+    {
+      "id": "e01",
+      "kind": "edge",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 4,
+      "tokens": 223
+    },
+    {
+      "id": "e02",
+      "kind": "edge",
+      "attempt": 1,
+      "passed": false,
+      "error": null,
+      "failed_checks": [
+        {
+          "check": "equals",
+          "path": "workout_plan.total_minutes",
+          "value": 10
+        }
+      ],
+      "latency_ms": 4,
+      "tokens": 272
+    },
+    {
+      "id": "e02",
+      "kind": "edge",
+      "attempt": 2,
+      "passed": false,
+      "error": null,
+      "failed_checks": [
+        {
+          "check": "equals",
+          "path": "workout_plan.total_minutes",
+          "value": 10
+        }
+      ],
+      "latency_ms": 5,
+      "tokens": 272
+    },
+    {
+      "id": "neg01",
+      "kind": "negative",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 0,
+      "tokens": 0
+    },
+    {
+      "id": "neg01",
+      "kind": "negative",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 0,
+      "tokens": 0
+    },
+    {
+      "id": "adv01",
+      "kind": "adversarial",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 0,
+      "tokens": 0
+    },
+    {
+      "id": "adv01",
+      "kind": "adversarial",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 0,
+      "tokens": 0
+    }
+  ]
+}

@@ -45,6 +45,10 @@ Desktop.ini
 
 # Logs & temp
 *.log
+*.db
+*.sqlite
+data/
+.pytest_cache/
 logs/
 temp/
 tmp/

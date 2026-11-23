@@ -1,0 +1,10 @@
+{
+  "hash": "6d5af7590742ad42",
+  "request_preview": "Як краще поводитися на полі, якщо я граю центрального захисн",
+  "model": "gemini-1.5-flash",
+  "text": "{\"mode\": \"chat\", \"workout_plan\": null, \"rule_explanation\": null, \"motivation\": null, \"answer\": \"Гарне питання! Тренуйся регулярно, працюй над слабкою ногою і дивись матчі, звертаючи увагу на рух без м'яча.\", \"missing_info\": null}",
+  "input_tokens": 21,
+  "output_tokens": 57,
+  "cost_usd": 0.0,
+  "recorded_at": "2026-11-21T10:31:35.397190+00:00"
+}

@@ -1,0 +1,208 @@
+{
+  "label": "v1-mock-after-fix",
+  "provider": "mock",
+  "model": "gemini-1.5-flash",
+  "prompt_version": "v1",
+  "date": "2026-11-21T10:30:36.163864+00:00",
+  "pass_rate": 1.0,
+  "summary_by_kind": {
+    "normal": {
+      "runs": 10,
+      "passed": 10
+    },
+    "edge": {
+      "runs": 4,
+      "passed": 4
+    },
+    "negative": {
+      "runs": 2,
+      "passed": 2
+    },
+    "adversarial": {
+      "runs": 2,
+      "passed": 2
+    }
+  },
+  "results": [
+    {
+      "id": "n01",
+      "kind": "normal",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 6,
+      "tokens": 289
+    },
+    {
+      "id": "n01",
+      "kind": "normal",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 4,
+      "tokens": 289
+    },
+    {
+      "id": "n02",
+      "kind": "normal",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 4,
+      "tokens": 194
+    },
+    {
+      "id": "n02",
+      "kind": "normal",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 3,
+      "tokens": 194
+    },
+    {
+      "id": "n03",
+      "kind": "normal",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 4,
+      "tokens": 142
+    },
+    {
+      "id": "n03",
+      "kind": "normal",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 4,
+      "tokens": 142
+    },
+    {
+      "id": "n04",
+      "kind": "normal",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 4,
+      "tokens": 291
+    },
+    {
+      "id": "n04",
+      "kind": "normal",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 3,
+      "tokens": 291
+    },
+    {
+      "id": "e01",
+      "kind": "edge",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 4,
+      "tokens": 223
+    },
+    {
+      "id": "e01",
+      "kind": "edge",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 6,
+      "tokens": 223
+    },
+    {
+      "id": "e02",
+      "kind": "edge",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 5,
+      "tokens": 272
+    },
+    {
+      "id": "e02",
+      "kind": "edge",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 6,
+      "tokens": 272
+    },
+    {
+      "id": "neg01",
+      "kind": "negative",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 0,
+      "tokens": 0
+    },
+    {
+      "id": "neg01",
+      "kind": "negative",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 0,
+      "tokens": 0
+    },
+    {
+      "id": "adv01",
+      "kind": "adversarial",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 0,
+      "tokens": 0
+    },
+    {
+      "id": "adv01",
+      "kind": "adversarial",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 0,
+      "tokens": 0
+    },
+    {
+      "id": "c01",
+      "kind": "normal",
+      "attempt": 1,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 5,
+      "tokens": 78
+    },
+    {
+      "id": "c01",
+      "kind": "normal",
+      "attempt": 2,
+      "passed": true,
+      "error": null,
+      "failed_checks": [],
+      "latency_ms": 4,
+      "tokens": 78
+    }
+  ]
+}

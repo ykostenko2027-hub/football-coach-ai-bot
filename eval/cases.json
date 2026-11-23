@@ -111,5 +111,17 @@
       { "check": "contains_ignore_case", "path": "system_message", "value": "футбол" },
       { "check": "not_contains", "path": "system_message", "value": "bash" }
     ]
+  },
+  {
+    "id": "c01",
+    "kind": "normal",
+    "about": "Звичайне футбольне питання без тренування повертає режим chat",
+    "input": {
+      "user_text": "Як краще поводитися на полі, якщо я граю центрального захисника?"
+    },
+    "expect": [
+      { "check": "equals", "path": "mode", "value": "chat" },
+      { "check": "min_length", "path": "answer", "value": 30 }
+    ]
   }
 ]
